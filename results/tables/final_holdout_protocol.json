@@ -1,0 +1,34 @@
+{
+  "combined_portfolio": false,
+  "correlation_rule": "gross strategy returns compounded to common non-overlapping 48h blocks; no forward filling",
+  "degradation_primary_reference": "Step-11 2023-2024 evaluation; development shown as secondary context",
+  "finalists": {
+    "BAL": {
+      "decision_cadence": "48h",
+      "formation_horizon": "3d",
+      "holding_horizon": "8w",
+      "portfolio_mapping": "equal_weight_terciles"
+    },
+    "ECON": {
+      "decision_cadence": "24h",
+      "formation_horizon": "2w",
+      "holding_horizon": "6w",
+      "portfolio_mapping": "continuous_rank"
+    },
+    "SHARP": {
+      "decision_cadence": "8h",
+      "formation_horizon": "1d",
+      "holding_horizon": "8w",
+      "portfolio_mapping": "equal_weight_terciles"
+    }
+  },
+  "holdout_end_exclusive": "2026-08-01 00:00:00+00:00",
+  "holdout_start": "2025-01-01 00:00:00+00:00",
+  "ic_inference": "Step-11 HAC mean t-stat; lag = ceil(holding/cadence)-1",
+  "primary_cost_bps": 20.0,
+  "primary_survival_rule": {
+    "break_even_cost_bps_ge": 20.0,
+    "gross_ann_return_gt": 0.0,
+    "mean_continuation_ic_gt": 0.0
+  }
+}

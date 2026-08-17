@@ -1,0 +1,4 @@
+finalist,philosophy,mapping,formation,holding,cadence,pre2025_eval_ic,pre2025_eval_gross_sharpe,pre2025_eval_net20_sharpe,pre2025_eval_break_even_bps
+ECON,Economic resilience,continuous_rank,2w,6w,24h,0.05392,0.915241,0.683478,78.969452
+BAL,Balanced,equal_weight_terciles,3d,8w,48h,0.043501,1.416566,1.028728,72.991227
+SHARP,Higher Sharpe,equal_weight_terciles,1d,8w,8h,0.042936,1.939187,1.302612,60.912835

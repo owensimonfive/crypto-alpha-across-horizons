@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crypto-alpha-across-horizons"
+version = "0.1.0"
+description = "Cross-sectional crypto alpha research across formation, holding, and implementation horizons."
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "numpy>=2.0",
+    "pandas>=2.2",
+    "matplotlib>=3.9",
+    "requests>=2.32",
+    "statsmodels>=0.14",
+    "pyarrow>=17",
+]
+
+[project.optional-dependencies]
+notebooks = [
+    "jupyterlab>=4.2",
+    "ipykernel>=6.29",
+]
+dev = [
+    "pytest>=8.3",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
