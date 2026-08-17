@@ -12,9 +12,9 @@ The project uses a **point-in-time monthly top-25 universe of liquid Binance spo
 
 ## Headline result
 
-The first momentum architecture **failed** its frozen 2023–2024 validation and is preserved as a negative result.
+A promising cross-sectional momentum signal **failed its frozen 2023–2024 validation**. Rather than treating that as an endpoint, the failure became the catalyst for a redesign using only pre-2025 information.
 
-Using only pre-2025 information, the research then diagnosed the failure and developed a distinct **multi-week cross-sectional continuation** architecture. Three exact implementations were frozen before the final test:
+That redesign uncovered a distinct **multi-week cross-sectional continuation** architecture. Three exact implementations — representing different tradeoffs between economic resilience, balance, and risk-adjusted performance — were frozen before the untouched final test:
 
 | Finalist | Philosophy | Mapping | Formation | Holding | Cadence |
 |---|---|---|---:|---:|---:|
@@ -30,13 +30,19 @@ All three passed the predeclared survival rule in the untouched **2025-01-01 thr
 | BAL | 0.0466 | 0.79 | 0.41 | **42.0 bps** |
 | SHARP | 0.0368 | **1.13** | **0.42** | 31.7 bps |
 
-**Primary conclusion:** the continuation effect generalized across **3 / 3 pre-frozen implementations**, but realized economic strength degraded materially versus pre-2025 evidence.
+**Primary conclusion:** despite the original validation failure, the redesigned continuation effect generalized across **3 / 3 pre-frozen implementations** in the untouched holdout. Realized economic strength was weaker than in the pre-2025 evaluation, but all three retained positive continuation IC, positive gross economics, and break-even costs above the primary 20-bps assumption.
+
+### Untouched holdout performance
+
+![Untouched final holdout gross growth of $1](results/figures/00_final_holdout_gross_wealth.png)
+
+The three implementations are different expressions of the same continuation factor rather than independent alphas. SHARP delivered the strongest gross holdout performance, BAL produced the strongest realized execution-cost cushion, and ECON represented the slower, more cost-conscious implementation philosophy.
 
 ### Execution-cost sensitivity
 
 ![Untouched holdout Sharpe versus execution cost](results/figures/04_cost_sensitivity.png)
 
-The 20-bps vertical marker is the project's locked primary cost assumption. BAL retains the largest realized cost cushion, while SHARP retains the strongest gross holdout Sharpe but is more turnover-sensitive.
+The 20-bps vertical marker is the project's locked primary cost assumption. BAL retained the largest realized cost cushion, while SHARP retained the strongest gross holdout Sharpe but was more turnover-sensitive.
 
 ## Why the research process matters
 
