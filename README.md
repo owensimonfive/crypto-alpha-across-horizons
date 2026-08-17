@@ -80,7 +80,7 @@ Post-validation diagnostics show that:
 - typical portfolios held roughly **29–31 active names**;
 - no single asset exceeded about **6.6%** of absolute contribution;
 - performance was materially stronger in 2025 than in Jan–Jul 2026;
-- the dollar-neutral portfolios nevertheless exhibited meaningful **negative realized crypto-market beta**;
+- the dollar-neutral portfolios exhibited **moderate negative realized crypto-market beta** in the final holdout;
 - the finalists were highly correlated and should be interpreted as alternative implementations of one continuation factor, not three independent alphas.
 
 ## Repository structure
