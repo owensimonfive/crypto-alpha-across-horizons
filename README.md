@@ -24,6 +24,12 @@ That redesign uncovered a distinct **multi-week cross-sectional continuation** a
 
 All three passed the predeclared survival rule in the untouched **2025-01-01 through 2026-08-01 exclusive** holdout.
 
+### Untouched holdout performance
+
+![Untouched final holdout gross growth of $1](results/figures/00_final_holdout_gross_wealth.png)
+
+The three implementations are different expressions of the same continuation factor rather than independent alphas. SHARP delivered the strongest gross holdout performance, BAL produced the strongest realized execution-cost cushion, and ECON represented the slower, more cost-conscious implementation philosophy.
+
 | Finalist | Mean IC | Gross Sharpe | Net-20 Sharpe | Break-even cost |
 |---|---:|---:|---:|---:|
 | ECON | 0.0484 | 0.33 | 0.10 | 28.5 bps |
@@ -31,12 +37,6 @@ All three passed the predeclared survival rule in the untouched **2025-01-01 thr
 | SHARP | 0.0368 | **1.13** | **0.42** | 31.7 bps |
 
 **Primary conclusion:** despite the original validation failure, the redesigned continuation effect generalized across **3 / 3 pre-frozen implementations** in the untouched holdout. Realized economic strength was weaker than in the pre-2025 evaluation, but all three retained positive continuation IC, positive gross economics, and break-even costs above the primary 20-bps assumption.
-
-### Untouched holdout performance
-
-![Untouched final holdout gross growth of $1](results/figures/00_final_holdout_gross_wealth.png)
-
-The three implementations are different expressions of the same continuation factor rather than independent alphas. SHARP delivered the strongest gross holdout performance, BAL produced the strongest realized execution-cost cushion, and ECON represented the slower, more cost-conscious implementation philosophy.
 
 ### Execution-cost sensitivity
 
