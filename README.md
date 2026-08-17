@@ -4,6 +4,8 @@
 
 **Cross-sectional momentum, reversal, and continuation research in a 24/7 crypto market**
 
+> **Research presentation:** [View the full research deck (PDF)](presentation/crypto_alpha_across_horizons_research_presentation.pdf)
+
 This repository documents an end-to-end quantitative research project built around a simple question:
 
 > **Does relative past crypto performance predict relative future performance across horizons, and can that relationship survive realistic portfolio construction, turnover, transaction costs, and genuinely out-of-sample testing?**
