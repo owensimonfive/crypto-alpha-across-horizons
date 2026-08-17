@@ -44,9 +44,9 @@ The three implementations are different expressions of the same continuation fac
 
 The 20-bps vertical marker is the project's locked primary cost assumption. BAL retained the largest realized cost cushion, while SHARP retained the strongest gross holdout Sharpe but was more turnover-sensitive.
 
-## Why the research process matters
+## Research approach
 
-This project is intentionally not a “find the best backtest and present it” exercise.
+The project was designed to test whether the signal held up across implementation choices and out-of-sample periods, rather than to optimize a single backtest.
 
 Key safeguards include:
 
@@ -61,7 +61,7 @@ Key safeguards include:
 - reproduction gates before opening later samples;
 - no post-holdout parameter rescue, beta hedge, asset exclusion, or ensemble fitting.
 
-The original validation failure is part of the final research record, not something hidden by the later redesign.
+The failed validation is kept in the final research record because it directly motivated the later redesign.
 
 ## Research path
 
