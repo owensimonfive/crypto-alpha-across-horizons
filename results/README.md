@@ -1,6 +1,6 @@
 # Results
 
-This directory contains the small, frozen evidence layer used by the recruiter-facing research package.
+This directory contains the small, frozen evidence layer used by the research repository.
 
 ## Tables
 

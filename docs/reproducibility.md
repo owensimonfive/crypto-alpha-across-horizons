@@ -8,7 +8,7 @@ This repository supports two different levels of review.
 
 A reviewer can inspect the six public notebooks, the point-in-time universe files, and the small frozen result artifacts without downloading the full Binance dataset.
 
-This is the intended GitHub/recruiter workflow.
+This is the intended lightweight GitHub review workflow.
 
 The repository includes:
 

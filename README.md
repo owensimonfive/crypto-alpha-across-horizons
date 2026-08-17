@@ -4,7 +4,7 @@
 
 **Cross-sectional momentum, reversal, and continuation research in a 24/7 crypto market**
 
-This repository is a recruiter-facing quantitative research package built around a simple question:
+This repository documents an end-to-end quantitative research project built around a simple question:
 
 > **Does relative past crypto performance predict relative future performance across horizons, and can that relationship survive realistic portfolio construction, turnover, transaction costs, and genuinely out-of-sample testing?**
 
@@ -115,9 +115,3 @@ The exact research logic remains frozen; repository cleanup may reorganize imple
 The strategy is researched on Binance spot data but interpreted as a theoretical long-short portfolio. Real borrow availability, perpetual-futures funding, margin constraints, market impact, and venue-specific execution can differ materially from the simplified cost model.
 
 The primary 20-bps cost assumption is constant, while real execution costs vary over time and across assets. The final holdout is also relatively short, and the three finalists are highly correlated implementations of the same underlying continuation phenomenon.
-
-## Status
-
-**Empirical research: complete and frozen.**  
-**Public research repository: complete and tested.**  
-**Current work: recruiter-facing presentation and interview-ready communication.**
