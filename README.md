@@ -1,5 +1,7 @@
 # Crypto Alpha Across Horizons
 
+[![Tests](https://github.com/owensimonfive/crypto-alpha-across-horizons/actions/workflows/tests.yml/badge.svg)](https://github.com/owensimonfive/crypto-alpha-across-horizons/actions/workflows/tests.yml)
+
 **Cross-sectional momentum, reversal, and continuation research in a 24/7 crypto market**
 
 This repository is a recruiter-facing quantitative research package built around a simple question:
@@ -29,6 +31,12 @@ All three passed the predeclared survival rule in the untouched **2025-01-01 thr
 | SHARP | 0.0368 | **1.13** | **0.42** | 31.7 bps |
 
 **Primary conclusion:** the continuation effect generalized across **3 / 3 pre-frozen implementations**, but realized economic strength degraded materially versus pre-2025 evidence.
+
+### Execution-cost sensitivity
+
+![Untouched holdout Sharpe versus execution cost](results/figures/04_cost_sensitivity.png)
+
+The 20-bps vertical marker is the project's locked primary cost assumption. BAL retains the largest realized cost cushion, while SHARP retains the strongest gross holdout Sharpe but is more turnover-sensitive.
 
 ## Why the research process matters
 
@@ -98,7 +106,7 @@ Raw Binance bars, processed 4h/1h panels, holdout caches, weight matrices, and l
 
 A reviewer can inspect the six notebooks and the small frozen artifacts in `results/tables/` without downloading years of exchange data.
 
-For a full rebuild, see [`docs/reproducibility.md`](docs/reproducibility.md) once the environment and acquisition instructions are installed.
+For a full rebuild, see [`docs/reproducibility.md`](docs/reproducibility.md).
 
 The exact research logic remains frozen; repository cleanup may reorganize implementation code but may not change the empirical conclusions.
 
@@ -111,4 +119,5 @@ The primary 20-bps cost assumption is constant, while real execution costs vary 
 ## Status
 
 **Empirical research: complete and frozen.**  
-**Current work: repository engineering, reproducibility, and recruiter-facing presentation.**
+**Public research repository: complete and tested.**  
+**Current work: recruiter-facing presentation and interview-ready communication.**
